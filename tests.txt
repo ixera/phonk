@@ -1,0 +1,74 @@
+# groups
+C = pbtdkgszljw $N
+V = iueoa
+N = mn ng
+J = jw
+# syllables
+- initial
+CV
+NJV
+- medial final
+(85%C(25%J))V(30%N)
+# replacements
+/{kg ng}i(N?)/{č dž ň}e\1/
+
+# groups
+C = mnptdkshvljr
+A = tsnrl
+V = iueoa
+# features
+[front]
+# replacements
+/(V):/\1\1/
+/(V)\1\1+/\1\1/
+/{uoa}/{yöä}/+front
+# syllables
+(85%C)V(25%:)(15%A)
+
+# groups
+C = mnpbtdkgszrywh
+V = iueoa
+# replacements
+/Q(C)/\1\1/
+/(V):/\1\1/
+/Q//
+/{stzd}([iy])/{! sh ch j j}\1/
+/{td}u/{! ts dz}u/
+# syllables
+(80%C(10%y))V(20%:)(20%[Q/n])
+
+#g
+C=ptkbdg
+R=rl
+V=ieaou
+#r
+/ki/či/
+#s
+CV
+V
+CRV
+
+# groups
+O = mnṇŋpbtdṭḍkgszṣẓhvrṛylḷ
+C = mnṇŋszṣẓlḷ
+V = iīuūeēoōèéòóaā
+# syllables
+(80%O)V(15%C)
+
+# groups
+C = 0mn ng b p d t g' c' g" c" gW cW f s h l i u
+V = iueyoa u̦ e̦ ỵ o̦ a̦
+F = i e e̦ y ỵ
+R = iumnptk ng
+T = ̂x ́x ̀x x ̌x ̄x
+S = x́ x x̀
+# syllables
+.CVT
+.CVSR
+# replacements
+/x//
+/{! g' c' g" c" gW cW}(?=F)/{gcg qu gü qü}/
+/{bd g"}$/{ptc}/
+/{! g' c' g" c" gW cW}/{! ge ce gu c gu qu}/
+/(V)\.(R|V)/\1·\2/
+/\.//

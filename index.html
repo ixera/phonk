@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="style.css">
+	<script src="gen.js"></script>
+	<title>phonk</title>
+</head>
+<body>
+	<textarea id="input" class="mono" rows=20 cols=60></textarea><br />
+	Word length: <input type="range" min=10 max=90 value=50 class="slider" id="wordLen"><br />
+	Text length: <input type="range" min=5 max=50 value=25 class="slider" id="textLen"><br />
+	<button id="go">go</button>
+	<div id="output"></div>
+	<!-- <pre id="debug" class="mono"></pre> -->
+	<div id="error"></div>
+</body>
+</html>

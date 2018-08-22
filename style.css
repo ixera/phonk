@@ -1,0 +1,15 @@
+#error {
+	color: red;
+}
+
+#error code {
+	color: black;
+}
+
+.mono {
+	font-family: "menlo", monospace;
+}
+
+#output {
+	font-size: 20px;
+}
