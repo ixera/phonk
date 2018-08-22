@@ -36,6 +36,8 @@ V = iueoa
 /{td}u/{! ts dz}u/
 # syllables
 (80%C(10%y))V(20%:)(20%[Q/n])
+# restrictions
+/[yw]y/
 
 #g
 C=ptkbdg
