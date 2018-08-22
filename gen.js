@@ -19,7 +19,7 @@ function genText(program, wordLen, textLen) {
 	let lastSection = '';
 
 	lines.forEach(line => {
-		line = line.split(/\s+\/\//)[0];
+		line = line.split(/\s+\/\/./)[0];
 		if(line == '') return;
 		if(/^# ?\w/.test(line)) {
 			lastSection = line.match(/^#\s*(\w+)/)[1];
