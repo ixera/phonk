@@ -35,9 +35,9 @@ V = iueoa
 /Q//
 /Nm/mm/
 /N/n/
+/{htd}u/{f ts dz}u/
 /{stzd}i/{! sh ch j j}i/
 /{stzd}y/{! sh ch j j}/
-/{htd}u/{f ts dz}u/
 # syllables
 (80%C(10%y))V(20%:)(20%[Q/N])
 # restrictions
