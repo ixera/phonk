@@ -1,3 +1,4 @@
+// test thing
 # groups
 C = pbtdkgszljw $N
 V = iueoa
@@ -12,6 +13,7 @@ NJV
 # replacements
 /{kg ng}i(N?)/{č dž ň}e\1/
 
+// finnish
 # groups
 C = mnptdkshvljr
 A = tsnrl
@@ -25,6 +27,7 @@ V = iueoa
 # syllables
 (85%C)V(25%:)(15%A)
 
+// japanese
 # groups
 C = mnpbtdkgszrywh
 V = iueoa
@@ -46,6 +49,7 @@ V = iueoa
 /w[iueo]/
 /Q[hyw]/
 
+// zompist gen + shortest code
 #g
 C=ptkbdg
 R=rl
@@ -57,6 +61,7 @@ CV
 V
 CRV
 
+// one of my conlangs
 # groups
 O = mnṇŋpbtdṭḍkgszṣẓhvrṛylḷ
 C = mnṇŋszṣẓlḷ
@@ -64,6 +69,7 @@ V = iīuūeēoōèéòóaā
 # syllables
 (80%O)V(15%C)
 
+// xo's cantonese romanization
 # groups
 C = 0mn ng b p d t g' c' g" c" gW cW f s h l i u
 V = iueyoa u̦ e̦ ỵ o̦ a̦
