@@ -4,6 +4,10 @@ function gen() {
 	let input = stdin.val();
 	let wordLen = parseInt(wordLenSlider.val()) / PERCENT;
 	let textLen = parseInt(textLenSlider.val());
+	if(input === '') {
+		stdout.html('<a href="https://github.com/elyatai/phonk/wiki">What is this thing and how do I use it?</a>');
+		return;
+	}
 	try {
 		stderr.html('');
 		stdout.text(genText(input, wordLen, textLen));
