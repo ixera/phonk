@@ -39,11 +39,7 @@ function genText(program, wordLen, textLen) {
 		sections[lastSection].push(line);
 	});
 
-	if(!sections.g) {
-		throw "No <code># groups</code> section!";
-	}
-
-	let g = groups(sections.g);
+	let g = groups(sections.g || []);
 	g = expandInclusions(g);
 
 	if(sections.s && sections.w) {
@@ -56,14 +52,11 @@ function genText(program, wordLen, textLen) {
 
 	let tree = parseWord(word, wordLen);
 
-	if(!sections.f) sections.f = [];
-	let features = handleFeatures(sections.f);
+	let features = handleFeatures(sections.f || []);
 
-	if(!sections.r) sections.r = [];
-	let replace = handleReplacements(sections.r, features, g);
+	let replace = handleReplacements(sections.r || [], features, g);
 
-	if(!sections.d) sections.d = [];
-	let disallowed = handleDisallowed(sections.d, g);
+	let disallowed = handleDisallowed(sections.d || [], g);
 	$A = disallowed;
 	// $("#debug").text(disallowed+"")
 
