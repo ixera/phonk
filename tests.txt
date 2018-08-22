@@ -32,12 +32,15 @@ V = iueoa
 /Q(C)/\1\1/
 /(V):/\1\1/
 /Q//
-/{stzd}([iy])/{! sh ch j j}\1/
+/{stzd}i/{! sh ch j j}i/
+/{stzd}y/{! sh ch j j}/
 /{td}u/{! ts dz}u/
 # syllables
 (80%C(10%y))V(20%:)(20%[Q/n])
 # restrictions
 /[yw]y/
+yi
+wu
 
 #g
 C=ptkbdg
