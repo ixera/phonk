@@ -72,7 +72,7 @@ V = iīuūeēoōèéòóaā
 // xo's cantonese romanization
 // note: does not obey rules on finals
 # groups
-C = 0mn ng b p d t g' c' g" c" gW cW f s h l i u
+C = 0mnbpdtfshliu ng g' c' g" c" gW cW
 V = iueyoa u̦ e̦ ỵ o̦ a̦
 F = i e e̦ y ỵ
 R = iumnptk ng
