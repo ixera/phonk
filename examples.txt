@@ -49,7 +49,7 @@ V = iueoa
 /w[iueo]/
 /Q[hyw]/
 
-// zompist gen + shortest code
+// zompist gen default preset + shortest code
 #g
 C=ptkbdg
 R=rl
@@ -65,9 +65,12 @@ CRV
 # groups
 O = mnṇŋpbtdṭḍkgszṣẓhvrṛylḷ
 C = mnṇŋszṣẓlḷ
-V = iīuūeēoōèéòóaā
+V = iīuūeēoōèéòóaā ai au
 # syllables
+- initial
 (80%O)V(15%C)
+- m f
+OV(15%C)
 
 // xo's cantonese romanization
 // note: does not obey rules on finals
