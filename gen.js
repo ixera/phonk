@@ -362,7 +362,7 @@ function handleReplacements(lines, ffs, groups) {
 		r[2] = r[2].replace(/\\(?=\d)/g, '$');
 		let br = [];
 		r.forEach(x => {
-			let ma = x.match(/\{[^\}]+\}/g)
+			let ma = x.match(/\{[^\}]+\}/g);
 			if(!ma) return;
 			let ungr = ma.map(m => ungroup(m.slice(1, -1)));
 			br = br.concat(ungr);
@@ -383,11 +383,11 @@ function handleReplacements(lines, ffs, groups) {
 			return;
 		}
 		if(!br.every(x => x.length === br[0].length)) {
-			throw `Unequal <code>{}</code> groups on line ${i+1}!`
+			throw `Unequal <code>{}</code> groups on line ${i+1}!`;
 		}
 		br = transpose(br);
 		br.forEach(b => {
-			let t = r.map(x => x.replace(/\{[^\}]+\}/, () => b.shift()));
+			let t = r.map(x => x.replace(/\{[^\}]+\}/g, () => b.shift()));
 			regexes.push({regex: new RegExp(t[1], 'g'), replace: t[2], features: fea});
 		});
 	});
